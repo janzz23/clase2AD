@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">4P</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              <table class="table">
+                <thead>
+                  <tr>   
+                    <th scope="col">Fase</th>
+                    <th scope="col">Actividades</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Iniciacion</td>
+                    <td>
+                      <ul>
+                        <li> Nace la idea del producto de SW</li>
+                          <li> Se Identifican los clientes y segmentos del mercado</li>
+                          <li>Se entrevistan algunos clientes para identificar sus necesidades y conocer de forma general las funcionalidades que deberia tener el SW</li>
+                          <li>Se hace un análisis para determinar si existen otros productos similares</li>
+                          <li>Se analiza la factibilidad del producto y la posible aceptación por parte de los usuarios. </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Planeacion</td>
+                    <td>
+                    <ul>
+                      <li>se desarrolla un plan para determinar los recursos necesarios para implementar el proyecto de SW (Tiempos, cronograma, personal, etc)</li>
+                        <li> Se determina el costo aproximado del proyecto y el tiempo de desarrollo. </li>
+                        <li> Dependiendo de la fecha de lanzamiento del producto se puede ajustuar el cronograma.</li>
+                        <li> El plan de desarrollo del producto se actualiza de acuerdo con las necesidades del proyecto (ej: si se incluyen nevas funcionalidades)</li>
+                        <li> se desarrolla el Plan De Gestion De La Configuracion: contiene actividades para controlar los cambios y manejo de versiones de su proyecto de SW</li>
+                    </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td>Analisis</td>
+                    <td>
+                    <ul>
+                      <li>Se recopila la mayor cantidad de informacion posible sobre las necesidades de los clientes.</li>
+                        <li>Se recopila informacion detallada sobre las funcionalidades del producto,, desempeño requerido para el producto, confiabilidad, seguridad, usabilidad.</li>
+                        <li>Los requerimientos generales se pueden recopilar por medio de entrevistas y lluvias de ideas con los clientes.</li>
+                        <li>Los requerimientos definen que es lo que el producto de SW debe hacer. hay requerimientos Funcionales y No Funcionales; funciones escenciales y caracteristicas del SW</li>
+                    </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td>Diseño</td>
+                    <td>
+                    <ul>
+                      <li>Esta se define como el SW, debe ser construido para cumplir con los requerimientos definidos en la fase anterior.</li>
+                        <li>Se define la arqutectura del SW (divisiones en un sub-sistemas) y se diseña de forma especifica de cada componente del SW. Todo esto se acompaña de la respectiva documentación que es lo que conforma el documento de diseño del SW.</li>
+                        <li>AUN NO SE DESARROLLA CODIGO </li>
+                    </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td>Implementación</td>
+                    <td>
+                    <ul>
+                      <li>En esta fase se programa todo el software</li>
+                        <li> El Objetivo es tomar el diseño obtenido en la fase anterior y programarlo completamente usando las tecnologias que se hayan definido.</li>
+                    </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td>Pruebas</td>
+                    <td>
+                    <ul>
+                      <li>El SW, se prueba para determinar si cimple con los requerimientos </li>
+                        <li>El Software se prueba en tres fases: </li>
+                        <li> Cada modulo se prueba de forma independiente. Los modulos se van integrando para determinar si la comunicacion entre los modulos es correcta. Una vez se integran todos los modulos y se conforma el sistema completo se determina si cimple con los requerimientos.</li>
+                    </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td>Mantenimiento</td>
+                    <td>
+                    <ul>
+                      <li>Esta fase comienza cuando el SW se libera oficialmente para los clientes.</li>
+                        <li>Se reparan fallos que se presenten durante el uso por parte de los clientes. Se implementan requerimientos adicionales de los clientes con respecto a mejoras. Se mejoran atributos del SW como confiabilidad, desempeño, etc. </li>
+                   <li> des de cada Mantenimiento se genera una nueva version del SW.</li>
+                      </ul>
+                  </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
